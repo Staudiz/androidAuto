@@ -4,6 +4,7 @@
 sdkmanager "system-images;android-30;google_apis_playstore;x86"
 avdmanager create avd -n TestNexus -k "system-images;android-30;google_apis_playstore;x86" -d "Nexus 5"
 emulator @TestNexus
+adb devices
 ```
 
 ## Setup Appium
